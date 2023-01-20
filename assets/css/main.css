@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: rgb(72, 108, 140) !important;
 		}
 
 	strong, b {
@@ -1776,6 +1776,10 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+	.blueText {
+		color: rgb(72, 108, 140);
+	}
+
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
@@ -1785,7 +1789,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: rgb(72, 108, 140);
 		font-size: 3.5em;
 	}
 
@@ -2618,7 +2622,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: rgb(72, 108, 140);
 			color: #ffffff !important;
 		}
 
@@ -2700,7 +2704,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background:gray;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2724,7 +2728,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: rgb(72, 108, 140);
 		}
 
 			#header a:hover {
@@ -2751,7 +2755,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #ffffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,8 +2776,10 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: white;
+					transition: 0.2s;
 				}
+
 
 		#header > nav {
 			-moz-flex-grow: 1;
@@ -2789,7 +2795,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px rgb(72, 108, 140);
 					display: block;
 					padding: 0;
 				}
@@ -2807,8 +2813,8 @@ input, select, textarea {
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: rgb(72, 108, 140);
+							color:white !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2825,7 +2831,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 3px #f4f4f4;
 	}
 
 		#main > section > .container {
@@ -3076,7 +3082,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: gray;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
